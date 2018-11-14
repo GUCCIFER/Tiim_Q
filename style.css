@@ -10,8 +10,38 @@ p {
     text-shadow: 2px 2px #000000;
 }
 body {
-    background: url(https://www.tartu.ee/sites/default/files/field/image/Pirogov_0.jpg) no-repeat;
+    background: url(https://www.tartu.ee/sites/default/files/field/image/Pirogov_0.jpg);
     background-size: 100%;
-    background-color: rgb(189, 1, 1);
+    background-color: rgba(189, 0, 0, 0.582);
     background-blend-mode: lighten;
 }
+#hogan {
+    position: relative;
+    top: 10px;
+    height: 10%;
+    width: 6%;
+}
+.main {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24; 
+    text-shadow: 1px 1px #000000;
+    width: 500px;
+    background-color:rgba(90, 6, 6, 0.8);
+}
+#vader { 
+    position: relative;
+    top: 10px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    height: 10%;
+    width: 6%;
+}
+
