@@ -8,7 +8,7 @@
             <source src="bodies.mp3">
           </audio>
     </head>
-<body>
+<body id="mainbody">
 <h1 class="title">
     <a href="./index.html"><img id=hogan src="https://vignette.wikia.nocookie.net/hotline-miami/images/4/41/SprBlackGuy.png/revision/latest?cb=20160327095241"></a>
     <a>Piropargi Maadlusklubi</a>
@@ -16,27 +16,28 @@
 </h1>
 <div id= page class="container">
     <div id="content">
-        <p><img src="20180109_wrm_stevan_micic.jpg" width="650" height="350" alt="" /></p>
-        <p class="main">
-            Piropargi Maadlusklubi on 2018. aastal asutatud harrastusspordiselts Tartu kõige rammusamatele ja sitkematele mehepoegadele. "Ei ole tööd, ei ole leiba!"  
-        </p>
+        <iframe src="./Main.html" name="iframe_a" height="100%" width="100%" style="border:none;" scrolling="no"></iframe>
     </div>
     <div id="sidebar">
             <div id="sbox1">
                 <h2>Menüü</h2>
                 <ul class="list-style1">
                     <li class="first">
-                        <a href="./Meist.html" class="link-style">Meist</a>
+                        <a href="./Main.html" target="iframe_a" class="link-style">Pealeht</a>
                     </li>
                     <li>
-                        <a href="./Auhinnad.html" class="link-style">Auhinnad</a>
+                        <a href="./Meist.html" target="iframe_a" class="link-style">Meist</a>
                     </li>
                     <li>
-                        <a href="./Galerii.html" class="link-style">Galerii</a>
+                        <a href="./Auhinnad.html" target="iframe_a" class="link-style">Auhinnad</a>
                     </li>
                     <li>
-                        <a href="./Registreerimine.html" class="link-style">Registreerimine</a>
+                        <a href="./Galerii.html" target="iframe_a" class="link-style">Galerii</a>
                     </li>
+                    <li>
+                        <a href="./Registreerimine.html" target="iframe_a" class="link-style">Registreerimine</a>
+                    </li>
+                    
                 </ul>
             </div>
     </div>

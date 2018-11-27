@@ -9,7 +9,7 @@ p {
     font-size: 50; 
     text-shadow: 2px 2px #000000;
 }
-body {
+#mainbody {
     background: url(https://www.tartu.ee/sites/default/files/field/image/Pirogov_0.jpg);
     background-size: 100%;
     background-color: rgba(148, 0, 0, 0.651);
