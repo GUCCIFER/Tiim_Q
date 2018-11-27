@@ -173,5 +173,18 @@ h2 {
   .test:hover ~ .test2 {
     display: none;
   }
+#wrapper {
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+}
+
+#runner {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 1075px;
+    top: 15px;
+}
 
 
